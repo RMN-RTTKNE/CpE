@@ -1,0 +1,165 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "col[0]",
+					"strict" : false
+				},
+				{
+					"name" : "col[1]",
+					"strict" : false
+				},
+				{
+					"name" : "col[2]",
+					"strict" : false
+				},
+				{
+					"name" : "col[3]",
+					"strict" : false
+				},
+				{
+					"name" : "H0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "H0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "H0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "H0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "H0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "H0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "H0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "H1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "H1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "H1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "H1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "H1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "H1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "H1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "H2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "H2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "H3",
+					"strict" : false
+				},
+				{
+					"name" : "F[0]",
+					"strict" : false
+				},
+				{
+					"name" : "F[1]",
+					"strict" : false
+				},
+				{
+					"name" : "F[2]",
+					"strict" : false
+				},
+				{
+					"name" : "F[3]",
+					"strict" : false
+				},
+				{
+					"name" : "valid",
+					"strict" : false
+				},
+				{
+					"name" : "sReset",
+					"strict" : false
+				},
+				{
+					"name" : "sLA",
+					"strict" : false
+				},
+				{
+					"name" : "sLB",
+					"strict" : false
+				},
+				{
+					"name" : "sLR",
+					"strict" : false
+				},
+				{
+					"name" : "sIUAU",
+					"strict" : false
+				},
+				{
+					"name" : "sAS",
+					"strict" : false
+				},
+				{
+					"name" : "CE",
+					"strict" : false
+				},
+				{
+					"name" : "row[0]",
+					"strict" : false
+				},
+				{
+					"name" : "row[2]",
+					"strict" : false
+				},
+				{
+					"name" : "row[3]",
+					"strict" : false
+				},
+				{
+					"name" : "row[1]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "RST",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+module oneHz (
+input clk, rst,
+output one);
+wire TenM, OneM, Onek;
+wire [3:0]c;
+divideXN #(5,4) div5 (clk,rst,c[0],TenM);
+divideXN # (10,4) div10 (TenM, rst, c[1], OneM);
+divideXN # (1000, 4'd10) div1000a (OneM, rst, c[2], Onek);
+divideXN # (1000, 4'd10) div1000b (Onek, rst, c[3], one);
+
+endmodule 

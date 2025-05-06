@@ -1,0 +1,29 @@
+module IU 
+(
+	input clk, rst, 
+	input [3:0]row,
+	output [3:0]col,
+	output [7:0] led,
+	output valid
+);
+	wire [15:0]BCD;
+	wire [7:0]BSM;
+	
+	keypad_input kp
+	(
+		.clk(clk) ,	
+		.reset(rst) ,	
+		.row(row) ,	
+		.col(col) ,	
+		.out(BCD)	
+	);
+	
+	validity check (BCD, valid);
+	
+	BCD2BinarySM b0 (BCD, BSM); 
+	
+	twoSIGN (BSM, led[6:0]);
+	
+	assign led[7] = BSM[7];
+	
+endmodule

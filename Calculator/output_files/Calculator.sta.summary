@@ -1,0 +1,245 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CU:CU_inst|state.S5'
+Slack : -10.713
+TNS   : -76.992
+
+Type  : Slow 1200mV 85C Model Setup 'CU:CU_inst|state.S2'
+Slack : -10.639
+TNS   : -78.704
+
+Type  : Slow 1200mV 85C Model Setup 'CLK'
+Slack : -7.076
+TNS   : -106.750
+
+Type  : Slow 1200mV 85C Model Setup 'row[0]'
+Slack : -3.892
+TNS   : -40.483
+
+Type  : Slow 1200mV 85C Model Setup 'CU:CU_inst|state.S0'
+Slack : -3.723
+TNS   : -3.723
+
+Type  : Slow 1200mV 85C Model Setup 'IU:IU_inst|keypad_input:kp|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : -1.808
+TNS   : -11.069
+
+Type  : Slow 1200mV 85C Model Hold 'row[0]'
+Slack : -0.343
+TNS   : -0.343
+
+Type  : Slow 1200mV 85C Model Hold 'CLK'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'IU:IU_inst|keypad_input:kp|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : 0.378
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CU:CU_inst|state.S0'
+Slack : 2.986
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CU:CU_inst|state.S2'
+Slack : 5.055
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CU:CU_inst|state.S5'
+Slack : 5.110
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'row[0]'
+Slack : -3.508
+TNS   : -45.193
+
+Type  : Slow 1200mV 85C Model Removal 'row[0]'
+Slack : 0.625
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'row[0]'
+Slack : -3.000
+TNS   : -78.890
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -63.329
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CU:CU_inst|state.S2'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CU:CU_inst|state.S5'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'IU:IU_inst|keypad_input:kp|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CU:CU_inst|state.S0'
+Slack : 0.415
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'CU:CU_inst|state.S5'
+Slack : -9.936
+TNS   : -71.422
+
+Type  : Slow 1200mV 0C Model Setup 'CU:CU_inst|state.S2'
+Slack : -9.884
+TNS   : -73.129
+
+Type  : Slow 1200mV 0C Model Setup 'CLK'
+Slack : -6.365
+TNS   : -92.638
+
+Type  : Slow 1200mV 0C Model Setup 'row[0]'
+Slack : -3.847
+TNS   : -37.008
+
+Type  : Slow 1200mV 0C Model Setup 'CU:CU_inst|state.S0'
+Slack : -3.330
+TNS   : -3.330
+
+Type  : Slow 1200mV 0C Model Setup 'IU:IU_inst|keypad_input:kp|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : -1.640
+TNS   : -9.770
+
+Type  : Slow 1200mV 0C Model Hold 'row[0]'
+Slack : -0.386
+TNS   : -0.386
+
+Type  : Slow 1200mV 0C Model Hold 'CLK'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'IU:IU_inst|keypad_input:kp|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CU:CU_inst|state.S0'
+Slack : 2.850
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CU:CU_inst|state.S2'
+Slack : 4.844
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CU:CU_inst|state.S5'
+Slack : 4.878
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'row[0]'
+Slack : -2.983
+TNS   : -38.384
+
+Type  : Slow 1200mV 0C Model Removal 'row[0]'
+Slack : 0.331
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'row[0]'
+Slack : -3.000
+TNS   : -72.908
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -63.329
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CU:CU_inst|state.S2'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CU:CU_inst|state.S5'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'IU:IU_inst|keypad_input:kp|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : -1.403
+TNS   : -11.224
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CU:CU_inst|state.S0'
+Slack : 0.425
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'CU:CU_inst|state.S5'
+Slack : -3.919
+TNS   : -27.821
+
+Type  : Fast 1200mV 0C Model Setup 'CU:CU_inst|state.S2'
+Slack : -3.912
+TNS   : -28.718
+
+Type  : Fast 1200mV 0C Model Setup 'CLK'
+Slack : -2.338
+TNS   : -23.668
+
+Type  : Fast 1200mV 0C Model Setup 'row[0]'
+Slack : -1.307
+TNS   : -17.120
+
+Type  : Fast 1200mV 0C Model Setup 'CU:CU_inst|state.S0'
+Slack : -1.262
+TNS   : -1.262
+
+Type  : Fast 1200mV 0C Model Setup 'IU:IU_inst|keypad_input:kp|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : -0.663
+TNS   : -2.405
+
+Type  : Fast 1200mV 0C Model Hold 'row[0]'
+Slack : -0.093
+TNS   : -0.093
+
+Type  : Fast 1200mV 0C Model Hold 'CLK'
+Slack : 0.111
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'IU:IU_inst|keypad_input:kp|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CU:CU_inst|state.S0'
+Slack : 1.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CU:CU_inst|state.S2'
+Slack : 2.183
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CU:CU_inst|state.S5'
+Slack : 2.184
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'row[0]'
+Slack : -1.647
+TNS   : -21.208
+
+Type  : Fast 1200mV 0C Model Removal 'row[0]'
+Slack : 0.428
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLK'
+Slack : -3.000
+TNS   : -47.376
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'row[0]'
+Slack : -3.000
+TNS   : -46.797
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CU:CU_inst|state.S2'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CU:CU_inst|state.S5'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'IU:IU_inst|keypad_input:kp|keypad_base:keypad_base|clock_div:keypad_clock_divider|clk_track'
+Slack : -1.000
+TNS   : -8.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CU:CU_inst|state.S0'
+Slack : 0.462
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,18 @@
+module OU
+( 
+	input [7:0] A,
+	output [6:0] HEX0, HEX1, HEX2,
+	output HEX3_g
+);
+	wire [7:0] C;
+	wire [3:0] ones, tens;
+	wire [1:0] hund;
+	
+	twoSIGN t0(A[7:0], C[7:0]);
+	binary2bcd b0(C[7:0], ones[3:0], tens[3:0], hund[1:0]);
+	bcd2seven s0(ones[3], ones[2], ones[1], ones[0], HEX0[0], HEX0[1], HEX0[2], HEX0[3], HEX0[4], HEX0[5], HEX0[6]);
+	bcd2seven s1(tens[3], tens[2], tens[1], tens[0], HEX1[0], HEX1[1], HEX1[2], HEX1[3], HEX1[4], HEX1[5], HEX1[6]);
+	bcd2seven s2(0, 0, hund[1], hund[0], HEX2[0], HEX2[1], HEX2[2], HEX2[3], HEX2[4], HEX2[5], HEX2[6]);
+	assign HEX3_g = !A[7];
+	
+	endmodule

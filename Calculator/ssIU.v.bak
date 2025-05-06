@@ -1,0 +1,5 @@
+module ssIU (
+	input [3:0]row,
+	output [3:0]col,
+	output Reset, LA, LB, LR, IUAU, AS
+);
